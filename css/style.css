@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6 Aug, 2014, 11:16:14 PM
+    Author     : mac
+*/
+body {
+   background-color: #F3F3F5;
+   margin: 0px;
+   font-family: monospace;
+}
+
+#main-section{
+    height: 99%;
+    width: 100%;
+    background-image : url('../images/clients-middle.jpg');
+    //display: none;
+}
+
+#get-started{
+    position: absolute;
+    top: 86%;
+    left: 40%;
+    right: 38%;
+    //margin: 86% auto auto auto;
+    height: 62px;
+    width: 285px;
+}
+
+#login-section {
+    height: 500px;
+    width: 100%;
+    margin: 54px auto auto auto;
+    //border: 2px solid grey;
+    background : linear-gradient(315deg, rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5) 80%) repeat fixed 0% 0%, url('../images/noisy_grid.png');
+}
+
+#sign-in-form{
+    height: 228px;
+    width: 633px;
+    border: 2px solid darkgray;
+    /* text-align: center; */
+    border-radius: 8px;
+    position: relative;
+    top: 140px;
+    left: 26%;
+}
+
+#sign-in-form table{
+    text-align: center;
+    position: relative;
+    left: 15%;
+    top: 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+} 
+
+#sign-in-form a {
+    position: relative;
+    top: 20px;
+    left: 288px;
+    color: floralwhite;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#sign-up-form{
+    height: 306px;
+    width: 633px;
+    border: 2px solid darkgray;
+    /* text-align: center; */
+    border-radius: 8px;
+    position: relative;
+    top: 140px;
+    left: 26%;
+    display: none;
+}
+
+#sign-up-form table{
+    text-align: center;
+    position: relative;
+    left: 15%;
+    top: 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+} 
+
+#sign-up-form a {
+    position: relative;
+    top: 20px;
+    left: 324px;
+    color: floralwhite;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
