@@ -9,6 +9,21 @@ $("document").ready(function(){
             scrollTop: $('#login-section').offset().top
         }, '15000');
     });
+    $("#main-section li a:first").click(function(){
+    		$('html, body').animate({
+                scrollTop: $('#about-us').offset().top
+            }, '15000');
+    });
+    $("#main-section li a:eq(1)").click(function(){
+		$('html, body').animate({
+            scrollTop: $('#contact-us').offset().top
+        },'50000','linear');
+    });
+    $("#main-section li a:last").click(function(){
+		$('html, body').animate({
+            scrollTop: $('#feedback').offset().top
+        },'50000','linear');
+    });
     $("#needAnAccount").click(function(e){
         e.preventDefault();
         $("#sign-in-form").slideUp(1000);
